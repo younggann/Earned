@@ -1,0 +1,11 @@
+#introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

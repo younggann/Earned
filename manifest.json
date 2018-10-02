@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Motivated",
+	"description": "The extension that will guide you to productivity.",
+	"version": "1.0",
+	
+	"browser_action": {
+		"default_title": "Motivated"
+	},
+
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+	},
+
+	"permissions": ["activeTab"]
+}
+	
