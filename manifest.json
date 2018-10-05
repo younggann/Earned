@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Motivated",
+	"description": "The extension that will guide you to productivity.",
+	"version": "1.0",
+	"chrome_url_overrides": {
+		"newtab": "/src/app/app.component.html"
+	},
+	"permissions": ["activeTab"],
+	"browser_action": {
+	"default_title": "Motivated"
+	},
+	"content_security_policy": "script-src ‘self’ ‘unsafe-eval’; object-src ‘self’",
+	"web_accessible_resources": [
+	"assets/css/*",
+	"assets/js/*",
+	"assets/fonts/*"
+	]
+ }
