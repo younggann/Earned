@@ -6,12 +6,12 @@
 </div>
 <h2>Here are some links to help you start: </h2>
 <div action=>
-  <form action="/action_page.php">
+  <form action="/action_page.php" id="url">
     Add to Blacklist:
-    <input type="text" name="firstname" value="Enter website here:"><br>
-    <input type="submit" onclick="functionHere()" value="Submit">
+    <input type="text" name="url" value="Enter website here:"><br>
+    <input type="submit" onclick="addBlacklistItem()" value="Submit">
   </form>
   <button onclick="functionHere()" type="button">Show Blacklist in console output:</button>
 </div>
 
-<script type="text/javascript" src="/scripts/myscripts.js"></script>
+<script type="text/javascript" src="/scripts/neo4jApi.js"></script>
